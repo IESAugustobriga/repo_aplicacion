@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.infoaugustobriga">
+    package="app.proyecto.infoaugustobriga">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -20,23 +20,23 @@
         android:theme="@style/Theme.InfoAugustobriga">
 
         <activity
-            android:name=".calendarios.AcCalendarios"
+            android:name="proyecto.calendarios.AcCalendarios"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".profesorado.AcProfesorado"
+            android:name="proyecto.profesorado.AcProfesorado"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".horarios.AcListaCursos"
+            android:name="proyecto.horarios.AcListaCursos"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".horarios.AcHorarios"
+            android:name="proyecto.horarios.AcHorarios"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AcMenuPrincipal"
+            android:name="proyecto.AcMenuPrincipal"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
